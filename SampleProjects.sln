@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTrackingSystem", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookTrackingSystem", "BookTrackingSystem\BookTrackingSystem.csproj", "{B97F04D6-F2B7-43D8-87EA-3C9DD563CFAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductTrackingSystem", "ProductTrackingSystem\ProductTrackingSystem.csproj", "{10D1B808-2300-49BB-BBB7-3C0424D1CDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTrackingSystem", "MovieTrackingSystem\MovieTrackingSystem.csproj", "{1810E07D-E0C7-473D-97F6-5076B0762C5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B97F04D6-F2B7-43D8-87EA-3C9DD563CFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B97F04D6-F2B7-43D8-87EA-3C9DD563CFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B97F04D6-F2B7-43D8-87EA-3C9DD563CFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D1B808-2300-49BB-BBB7-3C0424D1CDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D1B808-2300-49BB-BBB7-3C0424D1CDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D1B808-2300-49BB-BBB7-3C0424D1CDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D1B808-2300-49BB-BBB7-3C0424D1CDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1810E07D-E0C7-473D-97F6-5076B0762C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1810E07D-E0C7-473D-97F6-5076B0762C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1810E07D-E0C7-473D-97F6-5076B0762C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1810E07D-E0C7-473D-97F6-5076B0762C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

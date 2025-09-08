@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem", "Notif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportationSystem", "TransportationSystem\TransportationSystem.csproj", "{7CC9478B-99F6-4DC4-A793-D3D99C9BF48A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantOrderingSystem", "RestaurantOrderingSystem\RestaurantOrderingSystem.csproj", "{50B00916-6CE4-49B1-BB58-EF385EF0111D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{7CC9478B-99F6-4DC4-A793-D3D99C9BF48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CC9478B-99F6-4DC4-A793-D3D99C9BF48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CC9478B-99F6-4DC4-A793-D3D99C9BF48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B00916-6CE4-49B1-BB58-EF385EF0111D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B00916-6CE4-49B1-BB58-EF385EF0111D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B00916-6CE4-49B1-BB58-EF385EF0111D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B00916-6CE4-49B1-BB58-EF385EF0111D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractPaymentSystem", "AbstractPaymentSystem\AbstractPaymentSystem.csproj", "{BEBE5870-C749-4B70-9F8F-843E5FFBCD77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractCarRental", "AbstractCarRental\AbstractCarRental.csproj", "{ECED2D17-B060-4289-A1C2-1EBA3B34ADC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{BEBE5870-C749-4B70-9F8F-843E5FFBCD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEBE5870-C749-4B70-9F8F-843E5FFBCD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEBE5870-C749-4B70-9F8F-843E5FFBCD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECED2D17-B060-4289-A1C2-1EBA3B34ADC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECED2D17-B060-4289-A1C2-1EBA3B34ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECED2D17-B060-4289-A1C2-1EBA3B34ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECED2D17-B060-4289-A1C2-1EBA3B34ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractLibraryManagementSy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractHospitalManagementSystem", "AbstractHospitalManagementSystem\AbstractHospitalManagementSystem.csproj", "{29C7667A-1F54-4804-B1F1-124DEF622588}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractSchoolManagementSystem", "AbstractSchoolManagementSystem\AbstractSchoolManagementSystem.csproj", "{9011350B-213D-4D1E-B0F1-CCBB56A56813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{29C7667A-1F54-4804-B1F1-124DEF622588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C7667A-1F54-4804-B1F1-124DEF622588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C7667A-1F54-4804-B1F1-124DEF622588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9011350B-213D-4D1E-B0F1-CCBB56A56813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9011350B-213D-4D1E-B0F1-CCBB56A56813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9011350B-213D-4D1E-B0F1-CCBB56A56813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9011350B-213D-4D1E-B0F1-CCBB56A56813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

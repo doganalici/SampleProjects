@@ -68,4 +68,5 @@ Derle ve çalıştır 🎉
 
 👤 Yazar
 ---------
-📌 Doğan Alıcı
+Doğan Alıcı
+📌 GitHub Profilim

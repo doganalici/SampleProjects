@@ -68,5 +68,5 @@ Derle ve çalıştır 🎉
 
 👤 Yazar
 ---------
-Doğan Alıcı
-📌 GitHub Profilim
+**Doğan Alıcı**
+📌 [GitHub Profilim](https://github.com/doganalici)

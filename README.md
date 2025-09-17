@@ -28,17 +28,17 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 
 ## 📑 Projeler
 ---------------
-| Proje | Açıklama | Görsel / Demo |
-|-------|----------|----------------|
-| **AbstractCarRental** | Kiralık araç işlemlerini soyut sınıflar ile modelleme | _[Ekran görüntüsü eklenebilir]_ |
-| **AbstractHospitalManagementSystem** | Hastane yönetim sistemi için temel modüller | _[Ekran görüntüsü eklenebilir]_ |
-| **AbstractLibraryManagementSystem** | Kütüphane yönetim sistemi | _[Ekran görüntüsü eklenebilir]_ |
-| **AbstractPaymentSystem** | Ödeme altyapısı örneği | _[Ekran görüntüsü eklenebilir]_ |
-| **AbstractSchoolManagementSystem** | Okul yönetim sistemi | _[Ekran görüntüsü eklenebilir]_ |
-| **AbstractVehicleManagementSystem** | Araç yönetim altyapısı | _[Ekran görüntüsü eklenebilir]_ |
-| **BookTrackingSystem** | Kitapların takibi için basit uygulama | _[Ekran görüntüsü eklenebilir]_ |
-| **MovieTrackingSystem** | Film listesi & takip uygulaması | _[Ekran görüntüsü eklenebilir]_ |
-| **RestaurantOrderingSystem** | Restoran sipariş sürecini modelleme | _[Ekran görüntüsü eklenebilir]_ |
+| Proje | Açıklama |
+|-------|----------|
+| **AbstractCarRental** | Kiralık araç işlemlerini soyut sınıflar ile modelleme |
+| **AbstractHospitalManagementSystem** | Hastane yönetim sistemi için temel modüller |
+| **AbstractLibraryManagementSystem** | Kütüphane yönetim sistemi |
+| **AbstractPaymentSystem** | Ödeme altyapısı örneği |
+| **AbstractSchoolManagementSystem** | Okul yönetim sistemi |
+| **AbstractVehicleManagementSystem** | Araç yönetim altyapısı |
+| **BookTrackingSystem** | Kitapların takibi için basit uygulama |
+| **MovieTrackingSystem** | Film listesi & takip uygulaması |
+| **RestaurantOrderingSystem** | Restoran sipariş sürecini modelleme |
 
 > 💡 Tüm projeler `.sln` çözüm dosyası ile açılabilir ve bağımsız çalıştırılabilir.
 

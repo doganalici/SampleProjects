@@ -3,7 +3,7 @@
 > 🚀 C# öğrenme yolculuğumda geliştirdiğim mini projeler koleksiyonu.  
 > Bu repo, **OOP (Nesne Yönelimli Programlama)** temellerini kavramak, farklı senaryolar üzerinde pratik yapmak ve portföyümü geliştirmek için oluşturuldu.  
 
-
+---
 
 ## 📂 İçindekiler
 ------------------
@@ -13,7 +13,7 @@
 - [🛠️ Kullanılan Teknolojiler](#️-kullanılan-teknolojiler)  
 - [👤 Yazar](#-yazar)  
 
-
+---
 
 ## 🎯 Amaç
 -----------
@@ -24,7 +24,7 @@ Bu repository, yazılım geliştirmede sık karşılaşılan senaryolar için **
 
 Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluşturmaktır.
 
-
+---
 
 ## 📑 Projeler
 ---------------
@@ -56,7 +56,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **Zoo** | Hayvanat bahçesi uygulaması |
 > 💡 Tüm projeler `.sln` çözüm dosyası ile açılabilir ve bağımsız çalıştırılabilir.
 
-
+---
 
 ## ⚙️ Kurulum & Çalıştırma
 ---------------------------
@@ -71,6 +71,8 @@ SampleProjects.sln dosyasını yükle.
 
 Derle ve çalıştır 🎉
 
+---
+
 🛠️ Kullanılan Teknolojiler
 --------------------------
 
@@ -83,7 +85,8 @@ Derle ve çalıştır 🎉
 *  Soyut sınıflar ve arayüzler
   
 *  Temel konsol uygulamaları
-
+  
+---
 
 👤 Yazar
 ---------

@@ -28,18 +28,32 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 
 ## 📑 Projeler
 ---------------
-| Proje | Açıklama |
-|-------|----------|
-| **AbstractCarRental** | Kiralık araç işlemlerini soyut sınıflar ile modelleme |
-| **AbstractHospitalManagementSystem** | Hastane yönetim sistemi için temel modüller |
+| Proje | Açıklama (Kısa) |
+|-------|-----------------|
+| **AbstractCarRental** | Soyut sınıflar ile araç kiralama işlemleri |
+| **AbstractHospitalManagementSystem** | Hastane yönetim sistemi modülleri |
 | **AbstractLibraryManagementSystem** | Kütüphane yönetim sistemi |
 | **AbstractPaymentSystem** | Ödeme altyapısı örneği |
 | **AbstractSchoolManagementSystem** | Okul yönetim sistemi |
-| **AbstractVehicleManagementSystem** | Araç yönetim altyapısı |
-| **BookTrackingSystem** | Kitapların takibi için basit uygulama |
-| **MovieTrackingSystem** | Film listesi & takip uygulaması |
-| **RestaurantOrderingSystem** | Restoran sipariş sürecini modelleme |
-... ve benzer birçok proje. 
+| **AbstractVehicleManagementSystem** | Araç yönetimi |
+| **BookTrackingSystem** | Kitap takip uygulaması |
+| **CarRental** | Basit araç kiralama sistemi |
+| **Elektronics** | Elektronik ürünler için basit sistem |
+| **Library** | Kütüphane uygulaması |
+| **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |
+| **MovieTrackingSystem** | Film listeleme & takip sistemi |
+| **NotificationSystem** | Bildirim gönderim sistemi |
+| **PaymentSystem** | Basit ödeme sistemi |
+| **ProductTrackingSystem** | Ürün takip sistemi |
+| **RestaurantOrderingSystem** | Restoran sipariş sistemi |
+| **School** | Okul uygulaması |
+| **SimpleBank** | Basit bankacılık işlemleri |
+| **StudentTrackingSystem** | Öğrenci takip uygulaması |
+| **TemperatureSensor** | Sıcaklık sensörü simülasyonu |
+| **Transport** | Ulaşım ile ilgili proje |
+| **TransportationSystem** | Taşıma sistemi |
+| **WalletProject** | Cüzdan işlemleri |
+| **Zoo** | Hayvanat bahçesi uygulaması |
 > 💡 Tüm projeler `.sln` çözüm dosyası ile açılabilir ve bağımsız çalıştırılabilir.
 
 

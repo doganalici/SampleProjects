@@ -28,7 +28,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 
 ## 📑 Projeler
 ---------------
-| Proje | Açıklama (Kısa) |
+| Proje | Açıklama (Kısaca) |
 |-------|-----------------|
 | **AbstractCarRental** | Soyut sınıflar ile araç kiralama işlemleri |
 | **AbstractHospitalManagementSystem** | Hastane yönetim sistemi modülleri |

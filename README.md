@@ -39,7 +39,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **BookTrackingSystem** | Kitapların takibi için basit uygulama |
 | **MovieTrackingSystem** | Film listesi & takip uygulaması |
 | **RestaurantOrderingSystem** | Restoran sipariş sürecini modelleme |
-
+... ve benzer birçok proje. 
 > 💡 Tüm projeler `.sln` çözüm dosyası ile açılabilir ve bağımsız çalıştırılabilir.
 
 

@@ -59,11 +59,12 @@ Derle ve çalıştır 🎉
 
 🛠️ Kullanılan Teknolojiler
 --------------------------
-| C# |
-| .NET Framework / .NET Core (projeye göre değişir) |
-| Nesne Yönelimli Programlama (OOP) |
-| Soyut sınıflar ve arayüzler |
-| Temel konsol uygulamaları |
+| TEKNOLOJİ |
+| **C#** |
+| **.NET Framework / .NET Core (projeye göre değişir)** |
+| **Nesne Yönelimli Programlama (OOP)** |
+| **Soyut sınıflar ve arayüzler** |
+| **Temel konsol uygulamaları** |
 
 
 👤 Yazar

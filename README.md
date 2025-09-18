@@ -31,6 +31,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | Proje | Açıklama (Kısaca) |
 |-------|-----------------|
 | **AbstractCarRental** | Soyut sınıflar ile araç kiralama işlemleri |
+| **AbstractEmployeeManagementSystem** | Çalışan kayıtları, departman atamaları |
 | **AbstractHospitalManagementSystem** | Hastane yönetim sistemi modülleri |
 | **AbstractLibraryManagementSystem** | Kütüphane yönetim sistemi |
 | **AbstractPaymentSystem** | Ödeme altyapısı örneği |

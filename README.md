@@ -41,6 +41,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **BookTrackingSystem** | Kitap takip uygulaması |
 | **CarRental** | Basit araç kiralama sistemi |
 | **Elektronics** | Elektronik ürünler için basit sistem |
+| **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
 | **Library** | Kütüphane uygulaması |
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |
 | **MovieTrackingSystem** | Film listeleme & takip sistemi |

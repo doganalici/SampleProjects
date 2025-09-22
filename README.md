@@ -36,6 +36,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **AbstractLibraryManagementSystem** | Kütüphane yönetim sistemi |
 | **AbstractPaymentSystem** | Ödeme altyapısı örneği |
 | **AbstractSchoolManagementSystem** | Okul yönetim sistemi |
+| **AbstractShapeDrawingSystem** | Farklı şekilleri (çember, kare, üçgen vb.) çizmeye yönelik soyut sınıflarla şekil çizimi sistemi |
 | **AbstractVehicleManagementSystem** | Araç yönetimi |
 | **BookTrackingSystem** | Kitap takip uygulaması |
 | **CarRental** | Basit araç kiralama sistemi |

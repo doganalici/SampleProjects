@@ -42,6 +42,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **CarRental** | Basit araç kiralama sistemi |
 | **Elektronics** | Elektronik ürünler için basit sistem |
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
+| **InterfacePaymentSystem** | Arayüz ile ödeme işlemlerini modelleyen sistem |
 | **Library** | Kütüphane uygulaması |
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |
 | **MovieTrackingSystem** | Film listeleme & takip sistemi |

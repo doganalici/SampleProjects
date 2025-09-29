@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNotificationSystem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLoggerSystem", "InterfaceLoggerSystem\InterfaceLoggerSystem.csproj", "{895DB1B0-7C44-46A2-9552-CE132B72D818}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceReportSystem", "InterfaceReportSystem\InterfaceReportSystem.csproj", "{367F764C-E498-4D82-AA03-9FC0CE33ABA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{895DB1B0-7C44-46A2-9552-CE132B72D818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{895DB1B0-7C44-46A2-9552-CE132B72D818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{895DB1B0-7C44-46A2-9552-CE132B72D818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367F764C-E498-4D82-AA03-9FC0CE33ABA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367F764C-E498-4D82-AA03-9FC0CE33ABA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367F764C-E498-4D82-AA03-9FC0CE33ABA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367F764C-E498-4D82-AA03-9FC0CE33ABA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

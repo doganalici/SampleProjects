@@ -45,6 +45,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceLoggerSystem** | Arayüz ile günlük (log) kaydı sistemi |
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePaymentSystem** | Arayüz ile ödeme işlemlerini modelleyen sistem |
+| **InterfaceReportSystem** | Arayüz ile PDF, Excel ve Word raporları oluşturma, yazdırma sistemi |
 | **Library** | Kütüphane uygulaması |
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |
 | **MovieTrackingSystem** | Film listeleme & takip sistemi |

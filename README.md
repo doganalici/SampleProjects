@@ -42,6 +42,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **CarRental** | Basit araç kiralama sistemi |
 | **Elektronics** | Elektronik ürünler için basit sistem |
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
+| **InterfaceECommerceSystem** | Basit bir e-ticaret sipariş sistemi örneği. Ödeme, fatura, loglama ve bildirim süreçlerini interface’ler ile yönetir |
 | **InterfaceLoggerSystem** | Arayüz ile günlük (log) kaydı sistemi |
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePaymentSystem** | Arayüz ile ödeme işlemlerini modelleyen sistem |

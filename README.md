@@ -48,6 +48,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePaymentSystem** | Arayüz ile ödeme işlemlerini modelleyen sistem |
 | **InterfacePrinterSystem ** | Arayüz ile farklı çıktı türlerini (PDF, Word, Excel, HTML) yazdırabilen esnek bir yazıcı sistemi |
+| **InterfacePrinterSystem** | Arayüz ile farklı çıktı türlerini (PDF, Word, Excel, HTML) yazdırabilen esnek bir yazıcı sistemi |
 | **InterfaceReportSystem** | Arayüz ile PDF, Excel ve Word raporları oluşturma, yazdırma sistemi |
 | **Library** | Kütüphane uygulaması |
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |

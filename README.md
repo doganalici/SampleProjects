@@ -45,6 +45,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceECommerceSystem** | Basit bir e-ticaret sipariş sistemi örneği. Ödeme, fatura, loglama ve bildirim süreçlerini interface’ler ile yönetir |
 | **InterfaceLibrarySystem** | Arayüz ile kitap ödünç alma, iade etme ve üyeleri (e-posta/SMS) bilgilendirme sistemi |
 | **InterfaceLoggerSystem** | Arayüz ile günlük (log) kaydı sistemi |
+| **InterfaceMusicPlayerSystem** | Interface ile Spotify, YouTube ve Apple Music üzerinden müzik çalabilen bir oynatıcı sistemi |
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePrinterSystem** | Arayüz ile farklı çıktı türlerini (PDF, Word, Excel, HTML) yazdırabilen esnek bir yazıcı sistemi |
 | **InterfaceReportSystem** | Arayüz ile PDF, Excel ve Word raporları oluşturma, yazdırma sistemi |

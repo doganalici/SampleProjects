@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrarySystem", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacePrinterSystem", "InterfacePrinterSystem\InterfacePrinterSystem.csproj", "{2A33B114-6A82-401B-BDAD-5AD40C577C3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceMusicPlayerSystem", "InterfaceMusicPlayerSystem\InterfaceMusicPlayerSystem.csproj", "{884BC38F-2554-4F48-9B70-3AD0EA68FE81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{2A33B114-6A82-401B-BDAD-5AD40C577C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A33B114-6A82-401B-BDAD-5AD40C577C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A33B114-6A82-401B-BDAD-5AD40C577C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884BC38F-2554-4F48-9B70-3AD0EA68FE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884BC38F-2554-4F48-9B70-3AD0EA68FE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884BC38F-2554-4F48-9B70-3AD0EA68FE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884BC38F-2554-4F48-9B70-3AD0EA68FE81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,6 +43,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **Elektronics** | Elektronik ürünler için basit sistem |
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
 | **InterfaceECommerceSystem** | Basit bir e-ticaret sipariş sistemi örneği. Ödeme, fatura, loglama ve bildirim süreçlerini interface’ler ile yönetir |
+| **InterfaceEmployeeMessagingSystem** | Farklı çalışan tiplerine (Developer, Designer, Manager) ortak bir mesaj gönderme işlevi kazandıran interface tabanlı mesajlaşma sistemidir. |
 | **InterfaceLibrarySystem** | Arayüz ile kitap ödünç alma, iade etme ve üyeleri (e-posta/SMS) bilgilendirme sistemi |
 | **InterfaceLoggerSystem** | Arayüz ile günlük (log) kaydı sistemi |
 | **InterfaceMusicPlayerSystem** | Interface ile Spotify, YouTube ve Apple Music üzerinden müzik çalabilen bir oynatıcı sistemi |

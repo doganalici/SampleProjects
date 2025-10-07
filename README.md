@@ -44,6 +44,17 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
 | **InterfaceECommerceSystem** | Basit bir e-ticaret sipariş sistemi örneği. Ödeme, fatura, loglama ve bildirim süreçlerini interface’ler ile yönetir |
 | **InterfaceEmployeeMessagingSystem** | Farklı çalışan tiplerine (Developer, Designer, Manager) ortak bir mesaj gönderme işlevi kazandıran interface tabanlı mesajlaşma sistemidir. |
+| **InterfaceGameStore** | Interface kullanımı: IGameService ile farklı platformların oyun satın alma metodları tanımlandı.
+
+Oyun satın alma: Kullanıcı oyun adı ve fiyatı girerek oyun satın alabilir.
+
+İndirimli fiyat hesaplama: Steam ve Epic Games için farklı indirim oranları uygulanır.
+
+Satın alınan oyunların listesi: Tüm satın alınan oyunlar detaylı bir şekilde görüntülenir.
+
+Toplam harcama: Platform bazında yapılan toplam harcama hesaplanır.
+
+Son satın alınan oyun: En son satın alınan oyun bilgileri ayrı olarak gösterilir. |
 | **InterfaceLibrarySystem** | Arayüz ile kitap ödünç alma, iade etme ve üyeleri (e-posta/SMS) bilgilendirme sistemi |
 | **InterfaceLoggerSystem** | Arayüz ile günlük (log) kaydı sistemi |
 | **InterfaceLoginSystem** | InterfaceLoginSystem Arayüz ile Email/Google/GitHub üzerinden kimlik doğrulama yapan örnek sistem |

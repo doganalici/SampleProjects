@@ -51,6 +51,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePrinterSystem** | Arayüz ile farklı çıktı türlerini (PDF, Word, Excel, HTML) yazdırabilen esnek bir yazıcı sistemi |
 | **InterfaceReportSystem** | Arayüz ile PDF, Excel ve Word raporları oluşturma, yazdırma sistemi |
+| **InterfaceTicketSystem** | Farklı bilet satış platformlarını (Online ve Gişe) ortak bir arayüz üzerinden yönetmeyi sağlar. |
 | **Library** | Kütüphane uygulaması |
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |
 | **MovieTrackingSystem** | Film listeleme & takip sistemi |

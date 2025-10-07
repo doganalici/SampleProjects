@@ -46,6 +46,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceEmployeeMessagingSystem** | Farklı çalışan tiplerine (Developer, Designer, Manager) ortak bir mesaj gönderme işlevi kazandıran interface tabanlı mesajlaşma sistemidir. |
 | **InterfaceLibrarySystem** | Arayüz ile kitap ödünç alma, iade etme ve üyeleri (e-posta/SMS) bilgilendirme sistemi |
 | **InterfaceLoggerSystem** | Arayüz ile günlük (log) kaydı sistemi |
+| **InterfaceLoginSystem** | InterfaceLoginSystem Arayüz ile Email/Google/GitHub üzerinden kimlik doğrulama yapan örnek sistem |
 | **InterfaceMusicPlayerSystem** | Interface ile Spotify, YouTube ve Apple Music üzerinden müzik çalabilen bir oynatıcı sistemi |
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePrinterSystem** | Arayüz ile farklı çıktı türlerini (PDF, Word, Excel, HTML) yazdırabilen esnek bir yazıcı sistemi |

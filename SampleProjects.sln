@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLoginSystem", "Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTicketSystem", "InterfaceTicketSystem\InterfaceTicketSystem.csproj", "{7DFFA8F8-AD03-4125-990D-8C51731402DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceGameStore", "InterfaceGameStore\InterfaceGameStore.csproj", "{D05A5736-41A6-4965-8F48-1D9D0D90BF16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{7DFFA8F8-AD03-4125-990D-8C51731402DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFFA8F8-AD03-4125-990D-8C51731402DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFFA8F8-AD03-4125-990D-8C51731402DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05A5736-41A6-4965-8F48-1D9D0D90BF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05A5736-41A6-4965-8F48-1D9D0D90BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05A5736-41A6-4965-8F48-1D9D0D90BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05A5736-41A6-4965-8F48-1D9D0D90BF16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

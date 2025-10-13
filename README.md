@@ -52,8 +52,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **InterfaceNotificationSystem** | Farklı bildirim türlerini (e-posta, SMS, uygulama içi) gönderebilen bir bildirim yönetim sistemi |
 | **InterfacePrinterSystem** | Arayüz ile farklı çıktı türlerini (PDF, Word, Excel, HTML) yazdırabilen esnek bir yazıcı sistemi |
 | **InterfaceReportSystem** | Arayüz ile PDF, Excel ve Word raporları oluşturma, yazdırma sistemi |
-| **InterfaceSimpleBankingSystem** | Farklı bankalar (Ziraat, VakıfBank, Garanti) için ortak işlemleri (Deposit, Withdraw, CheckBalance) tanımlayan bir IBankService arayüzü içerir.
-Her banka sınıfı kendi hesap bakiyesiyle bağımsız çalışır ve arayüzün soyut davranışlarını somutlaştırır. |
+| **InterfaceSimpleBankingSystem** | Farklı bankalar (Ziraat, VakıfBank, Garanti) için ortak işlemleri (Deposit, Withdraw, CheckBalance) tanımlayan bir IBankService arayüzü içerir.<br>Her banka sınıfı kendi hesap bakiyesiyle bağımsız çalışır ve arayüzün soyut davranışlarını somutlaştırır. |
 | **InterfaceTicketSystem** | Farklı bilet satış platformlarını (Online ve Gişe) ortak bir arayüz üzerinden yönetmeyi sağlar. |
 | **Library** | Kütüphane uygulaması |
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |

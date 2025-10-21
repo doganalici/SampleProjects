@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="BankManager.cs" />
     <Compile Include="GarantiBank.cs" />
     <Compile Include="IBankService.cs" />
     <Compile Include="Program.cs" />

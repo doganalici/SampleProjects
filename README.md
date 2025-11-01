@@ -1,7 +1,9 @@
 # 📘 SampleProjects
 
 > 🚀 C# öğrenme yolculuğumda geliştirdiğim mini projeler koleksiyonu.  
-> Bu repo, **OOP (Nesne Yönelimli Programlama)** temellerini kavramak, farklı senaryolar üzerinde pratik yapmak ve portföyümü geliştirmek için oluşturuldu.  
+> Bu repo, **OOP (Nesne Yönelimli Programlama)** ve **koleksiyon (Dictionary, List, Queue, Stack)** temelli uygulamaları kapsar.  
+> Farklı senaryolar üzerinde pratik yapmak ve portföyümü geliştirmek için oluşturuldu.  
+
 
 ---
 
@@ -102,6 +104,8 @@ Derle ve çalıştır 🎉
   
 *  Temel konsol uygulamaları
   
+*  Koleksiyonlar (Dictionary, List, Queue, Stack)
+
 ---
 
 👤 Yazar

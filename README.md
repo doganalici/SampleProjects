@@ -1,7 +1,9 @@
 # 📘 SampleProjects
 
 > 🚀 C# öğrenme yolculuğumda geliştirdiğim mini projeler koleksiyonu.  
-> Bu repo, **OOP (Nesne Yönelimli Programlama)** temellerini kavramak, farklı senaryolar üzerinde pratik yapmak ve portföyümü geliştirmek için oluşturuldu.  
+> Bu repo, **OOP (Nesne Yönelimli Programlama)** ve **Koleksiyon (Dictionary, List, Queue, Stack)** temelli uygulamaları kapsar.  
+> Farklı senaryolar üzerinde pratik yapmak ve portföyümü geliştirmek için oluşturuldu.  
+
 
 ---
 
@@ -40,6 +42,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **AbstractVehicleManagementSystem** | Araç yönetimi |
 | **BookTrackingSystem** | Kitap takip uygulaması |
 | **CarRental** | Basit araç kiralama sistemi |
+| **DictionaryPhoneBookSystem** | Konsol tabanlı telefon rehberi uygulaması. Kullanıcı kişi ekleyebilir, numara ile arama yapabilir, kişiyi silebilir ve rehberi listeleyebilir. |
 | **Elektronics** | Elektronik ürünler için basit sistem |
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
 | **InterfaceECommerceSystem** | Basit bir e-ticaret sipariş sistemi örneği. Ödeme, fatura, loglama ve bildirim süreçlerini interface’ler ile yönetir |
@@ -101,6 +104,8 @@ Derle ve çalıştır 🎉
   
 *  Temel konsol uygulamaları
   
+*  Koleksiyonlar (Dictionary, List, Queue, Stack)
+
 ---
 
 👤 Yazar

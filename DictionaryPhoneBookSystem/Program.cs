@@ -15,25 +15,6 @@ namespace DictionaryPhoneBookSystem
             Console.WriteLine("Telefon Rehberine Hoş Geldiniz!");
             Console.WriteLine("--------------------------------");
 
-            //Console.Write("Rehbere kaç kişi eklemek istiyorsunuz : ");
-            //int number = Convert.ToInt32(Console.ReadLine());
-            //for (int i = 0; i < number; i++)
-            //{
-            //    Console.Write($"{i + 1}. kişinin adını giriniz : ");
-            //    string name = Console.ReadLine();
-            //    Console.Write($"{i + 1}. kişinin numarasını giriniz : ");
-            //    string phoneNumber = Console.ReadLine();
-            //    Console.WriteLine();
-            //    guide.Add(name, phoneNumber);
-            //}
-            //Console.WriteLine("\nRehbet başarıyla oluşturuldu.\n");
-            //foreach (var person in guide)
-            //{
-            //    Console.WriteLine($"İsim {person.Key}\n" +
-            //        $"Telefon numarası : {person.Value}\n" +
-            //        $"*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*");
-            //}
-
             bool state = true;
             while (state == true)
             {
@@ -47,35 +28,46 @@ namespace DictionaryPhoneBookSystem
                 Console.Write("Seçiminiz: ");
 
                 Console.Write("Seçiminiz : ");
-                int choice = Convert.ToInt32(Console.ReadLine());
+                string choice = Console.ReadLine();
 
                 switch (choice)
                 {
-                    case 1:
+                    case "1":
                         Console.WriteLine();
                         Console.Write("Kişinin adını giriniz : ");
                         string name = Console.ReadLine();
-                        Console.Write("Kişinin numarasını giriniz : ");
-                        string phoneNumber = Console.ReadLine();
-                        if (guide.ContainsValue(phoneNumber))
+
+                        string phoneNumber;
+                        while (true)
                         {
-                            Console.WriteLine("Bu numara zaten kayıtlı ");
+                            Console.Write("Kişinin numarasını giriniz : ");
+                            phoneNumber = Console.ReadLine();
+
+                            if (!long.TryParse(phoneNumber, out _) || phoneNumber.Length != 11)
+                            {
+                                Console.WriteLine("Geçersiz telefon numarası. Lütfen 11 haneli olacak şekilde numara girişi yapınız!");
+                                continue;
+                            }
+                            else if (guide.ContainsKey(phoneNumber))
+                            {
+                                Console.WriteLine("Bu numara zaten kayıtlı ");
+                                continue;
+                            }
+                            break;
                         }
-                        else
-                        {
-                            guide.Add(name, phoneNumber);
-                            Console.WriteLine("---Kişi başarıyla eklenmiştir--");
-                        }
+                        guide.Add(phoneNumber, name);
+                        Console.WriteLine("---Kişi başarıyla eklenmiştir--");
                         break;
-                    case 2:
+
+                    case "2":
                         Console.WriteLine();
                         Console.Write("Silmek istediğiniz kişinin telefon numarasını giriniz : ");
                         string deletePhoneNumber = Console.ReadLine();
-                        if (guide.ContainsValue(deletePhoneNumber))
+                        if (guide.ContainsKey(deletePhoneNumber))
                         {
-                            string keyToRemove = guide.FirstOrDefault(x => x.Value == deletePhoneNumber).Key;
-                            guide.Remove(keyToRemove);
-                            Console.WriteLine($"{deletePhoneNumber} numarasına kayıtlı {keyToRemove} kişisi siliniştir");
+                            string keyToRemove = guide.FirstOrDefault(x => x.Key == deletePhoneNumber).Value;
+                            guide.Remove(deletePhoneNumber);
+                            Console.WriteLine($"{deletePhoneNumber} numarasına kayıtlı {keyToRemove} kişisi silinmiştir");
                         }
                         else
                         {
@@ -83,21 +75,53 @@ namespace DictionaryPhoneBookSystem
                         }
 
                         break;
-                    case 3:
+                    case "3":
                         Console.WriteLine();
-                        Console.Write("Kaydını aramak istediğiniz kişinin telefon numarasını giriniz : ");
-                        string searchNumber = Console.ReadLine();
-                        if (guide.ContainsValue(searchNumber))
+                        Console.WriteLine("1- Numara ile arama");
+                        Console.WriteLine("2- İsim ile arama");
+                        Console.Write("Seçiminiz : ");
+                        int searchChoice = Convert.ToInt32(Console.ReadLine());
+
+                        if (searchChoice == 1)
                         {
-                            string foundName = guide.FirstOrDefault(x => x.Value == searchNumber).Key;
-                            Console.WriteLine($"{searchNumber} numarası {foundName} adlı kişi olarak kayıtlıdır");
+                            Console.Write("Kaydını aramak istediğiniz kişinin telefon numarasını giriniz : ");
+                            string searchNumber = Console.ReadLine();
+                            if (guide.ContainsKey(searchNumber))
+                            {
+                                string foundName = guide.FirstOrDefault(x => x.Key == searchNumber).Value;
+                                Console.WriteLine($"\n{searchNumber} numarası {foundName} adlı kişi olarak kayıtlıdır");
+                            }
+                            else
+                            {
+                                Console.WriteLine("\n!!!! Bu numara rehberde bulunamadı!");
+                            }
+                        }
+                        else if (searchChoice == 2)
+                        {
+                            Console.Write("Kaydını aramak istediğiniz kişinin adını giriniz : ");
+                            string searchName = Console.ReadLine();
+
+                            var foundPerson = guide.Where(x => x.Value.Equals(searchName, StringComparison.OrdinalIgnoreCase)).ToList();
+                            if (foundPerson.Count > 0)
+                            {
+                                Console.WriteLine($"\n{searchName} isimli kişi için bulunan numaralar : ");
+                                foreach (var person in foundPerson)
+                                {
+                                    Console.WriteLine($"- {person.Key}");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("\n!!!! Bu numara rehberde bulunamadı!");
+                            }
                         }
                         else
                         {
-                            Console.WriteLine("\n!!!! Bu numara rehberde bulunamadı!");
+                            Console.WriteLine("\n!!! Hatalı bir tuşlama yaptınız!");
                         }
+
                         break;
-                    case 4:
+                    case "4":
                         if (guide.Count == 0)
                         {
                             Console.WriteLine("\n!!! Rehberde kayıtlı kişi bulunmamaktadır!");
@@ -107,13 +131,13 @@ namespace DictionaryPhoneBookSystem
                             Console.WriteLine("\n--- Rehber Listesi ---");
                             foreach (var person in guide)
                             {
-                                Console.WriteLine($"\nİsim {person.Key}\n" +
-                                    $"Telefon numarası : {person.Value}\n" +
+                                Console.WriteLine($"\nİsim {person.Value}\n" +
+                                    $"Telefon numarası : {person.Key}\n" +
                                     $"*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*");
                             }
                         }
                         break;
-                    case 5:
+                    case "5":
                         state = false;
                         Console.WriteLine("\nÇıkış yapılıyor. İyi günler...");
                         break;

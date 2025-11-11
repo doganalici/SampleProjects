@@ -9,16 +9,21 @@ namespace DictionaryPersonelManagementSystem
     public class Manager
     {
         private Dictionary<int, Personnel> staff = new Dictionary<int, Personnel>();
+
+        public bool HasPersonnel(int id)
+        {
+            return staff.ContainsKey(id);
+        }
         public void AddPersonnel(Personnel p)
         {
             if (!staff.ContainsKey(p.Id))
             {
                 staff.Add(p.Id, p);
-                Console.WriteLine($"{p.FirstName} {p.LastName} başarıyla eklenmiştir");
+                Console.WriteLine($"\n{p.FirstName} {p.LastName} başarıyla eklenmiştir");
             }
             else
             {
-                Console.WriteLine("Bu ID'ye sahip bir personel zaten mevcut.\n");
+                Console.WriteLine("\nBu ID'ye sahip bir personel zaten mevcut.\n");
             }
         }
 
@@ -27,14 +32,25 @@ namespace DictionaryPersonelManagementSystem
             if (staff.ContainsKey(id))
             {
                 staff.Remove(id);
-                Console.WriteLine($"ID : {id} olan personel kayıtlardan silinmiştir");
+                Console.WriteLine($"\nID : {id} olan personel kayıtlardan silinmiştir");
             }
             else
             {
-                Console.WriteLine("Bu ID'ye sahip personel bulunamadı.");
+                Console.WriteLine("\nBu ID'ye sahip personel bulunamadı.");
             }
         }
-        public void UpdatePersonnel(int id, Personnel newInformation) { }
+        public void UpdatePersonnel(int id, Personnel newInformation)
+        {
+            if (staff.ContainsKey(id))
+            {
+                staff[id] = newInformation;
+                Console.WriteLine($"\n{id} numaralı personel bilgileri güncellenmiştir.\n");
+            }
+            else
+            {
+                Console.WriteLine("\n!!! Güncellenmek istenen personel bulunamadı.\n");
+            }
+        }
         public void ListAll()
         {
             if (staff.Count == 0)
@@ -48,7 +64,17 @@ namespace DictionaryPersonelManagementSystem
                 Console.WriteLine(new string('*', 25));
             }
         }
-        public void FindPersonnel(int id) { }
+        public void FindPersonnel(int id)
+        {
+            if (staff.ContainsKey(id))
+            {
+                Console.WriteLine(staff[id]);
+            }
+            else
+            {
+                Console.WriteLine("\nBu ID' ye sahip personel bulunamadı.\n");
+            }
+        }
 
     }
 }

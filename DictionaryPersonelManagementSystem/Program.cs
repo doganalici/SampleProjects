@@ -59,19 +59,66 @@ namespace DictionaryPersonelManagementSystem
                             Console.WriteLine("\nBu ID'ye sahip bir personel bulunamadı. Güncelleme işlemi iptal edildi.\n");
                             break; // Menüye geri dön
                         }
-                        Console.WriteLine("\nYeni bilgileri giriniz : ");
-                        Console.Write("İsim : ");
-                        string newFirstName = Console.ReadLine();
-                        Console.Write("Soyisim : ");
-                        string newLastName = Console.ReadLine();
-                        Console.Write("Departman : ");
-                        string newDepartment = Console.ReadLine();
-                        Console.Write("Maaş : ");
-                        decimal newSalary = Convert.ToDecimal(Console.ReadLine());
-                        Console.Write("Telefon numarası : ");
-                        string newPhoneNumber = Console.ReadLine();
-                        Personnel updatedPersonnel = new Personnel(updateId, newFirstName, newLastName, newDepartment, newSalary, newPhoneNumber);
-                        manager.UpdatePersonnel(updateId, updatedPersonnel);
+
+                        else
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("1- Tüm bilgileri güncelle");
+                            Console.WriteLine("2- Belirli bir bilgiyi güncelle");
+                            int suboption = Convert.ToInt32(Console.ReadLine());
+                            switch (suboption)
+                            {
+                                case 1:
+                                    Console.WriteLine("\nYeni bilgileri giriniz : ");
+                                    Console.Write("İsim : ");
+                                    string newFirstName = Console.ReadLine();
+                                    Console.Write("Soyisim : ");
+                                    string newLastName = Console.ReadLine();
+                                    Console.Write("Departman : ");
+                                    string newDepartment = Console.ReadLine();
+                                    Console.Write("Maaş : ");
+                                    decimal newSalary = Convert.ToDecimal(Console.ReadLine());
+                                    Console.Write("Telefon numarası : ");
+                                    string newPhoneNumber = Console.ReadLine();
+                                    Personnel updatedPersonnel = new Personnel(updateId, newFirstName, newLastName, newDepartment, newSalary, newPhoneNumber);
+                                    manager.UpdatePersonnel(updateId, updatedPersonnel);
+                                    break;
+                                case 2:
+                                    Console.WriteLine("Hangi bilgiyi güncellemek istersiniz?");
+                                    Console.WriteLine("1 - Ad\n2 - Soyad\n3 - Departman\n4 - Maaş\n5 - Telefon");
+                                    int selection = Convert.ToInt32(Console.ReadLine());
+                                    switch (selection)
+                                    {
+                                        case 1:
+                                            Console.Write("\nYeni isim bilgisini giriniz : ");
+                                            string updateFirstName = Console.ReadLine();
+                                            break;
+                                        case 2:
+                                            Console.Write("\nYeni soyisim bilgisini giriniz : ");
+                                            string updateLastName = Console.ReadLine();
+                                            break;
+                                        case 3:
+                                            Console.Write("\nYeni departman bilgisini giriniz : ");
+                                            string updateDepartment = Console.ReadLine();
+                                            break;
+                                        case 4:
+                                            Console.Write("\nYeni maaş bilgisini giriniz : ");
+                                            decimal updateSalary = Convert.ToDecimal(Console.ReadLine());
+                                            break;
+                                        case 5:
+                                            Console.Write("\nYeni telefon bilgisini giriniz : ");
+                                            string updatePhoneNumber = Console.ReadLine();
+                                            break;
+                                        default:
+                                            Console.WriteLine("Lütfen menüye göre tuşlama yapınız!");
+                                            break;
+                                    }
+                                    break;
+                                default:
+                                    Console.WriteLine("Lütfen menüye göre tuşlama yapınız!");
+                                    break;
+                            }
+                        }
                         break;
                     case 4:
                         Console.Write("Aramak istediğiniz personelin ID numarasını giriniz : ");

@@ -42,7 +42,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **AbstractVehicleManagementSystem** | Araç yönetimi |
 | **BookTrackingSystem** | Kitap takip uygulaması |
 | **CarRental** | Basit araç kiralama sistemi |
-| **DictionaryPersonelManagementSystem** | Dictionary yapısıyla personel ekleme, silme, güncelleme, arama ve listeleme işlemlerini yapan basit bir Personel Yönetim Sistemi |
+| **DictionaryPersonelManagementSystem** | Bu proje, Dictionary koleksiyonu kullanılarak geliştirilmiş basit bir Personel Yönetim Uygulamasıdır.<br>Kullanıcı, konsol üzerinden personel ekleme, silme, güncelleme, arama ve listeleme işlemlerini gerçekleştirebilir.<br>Ayrıca sistem, maaş ve telefon numarası girişlerinde doğrulama (validation) yaparak hatalı girişleri engeller. |
 | **DictionaryPhoneBookSystem** | Konsol tabanlı telefon rehberi uygulaması. Kullanıcı kişi ekleyebilir, numara ile arama yapabilir, kişiyi silebilir ve rehberi listeleyebilir. |
 | **Elektronics** | Elektronik ürünler için basit sistem |
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |

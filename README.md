@@ -43,6 +43,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **BookTrackingSystem** | Kitap takip uygulaması |
 | **CarRental** | Basit araç kiralama sistemi |
 | **DictionaryPhoneBookSystem** | Konsol tabanlı telefon rehberi uygulaması. Kullanıcı kişi ekleyebilir, numara ile arama yapabilir, kişiyi silebilir ve rehberi listeleyebilir. |
+| **DictionaryPersonelManagementSystem** | BOŞ |
 | **Elektronics** | Elektronik ürünler için basit sistem |
 | **InterfaceAlarmSystem** | Arayüz kullanarak alarm kurma ve tetikleme sistemi |
 | **InterfaceECommerceSystem** | Basit bir e-ticaret sipariş sistemi örneği. Ödeme, fatura, loglama ve bildirim süreçlerini interface’ler ile yönetir |

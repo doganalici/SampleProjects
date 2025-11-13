@@ -43,8 +43,19 @@ namespace DictionaryPersonelManagementSystem
                         Console.Write("Telefon Numarası : ");
                         string phoneNumber = Console.ReadLine();
 
-                        Personnel newPerson = new Personnel(id, firstName, lastName, department, salary, phoneNumber);
-                        manager.AddPersonnel(newPerson);
+                        //Personnel newPerson = new Personnel(id, firstName, lastName, department, salary, phoneNumber);
+                        //manager.AddPersonnel(newPerson);
+
+                        if (phoneNumber.All(char.IsDigit) && phoneNumber.Length == 11)
+                        {
+                            Personnel newPerson = new Personnel(id, firstName, lastName, department, salary, phoneNumber);
+                            manager.AddPersonnel(newPerson);
+                            
+                        }
+                        else
+                        {
+                            Console.WriteLine("Hata: Telefon numarası yalnızca 11 haneli rakamlardan oluşmalıdır!");
+                        }
                         break;
                     case 2:
                         Console.Write("Silmek istediğiniz personelin ID numarasını giriniz : ");
@@ -65,6 +76,7 @@ namespace DictionaryPersonelManagementSystem
                             Console.WriteLine();
                             Console.WriteLine("1- Tüm bilgileri güncelle");
                             Console.WriteLine("2- Belirli bir bilgiyi güncelle");
+                            Console.Write("Seçiminiz : ");
                             int suboption = Convert.ToInt32(Console.ReadLine());
                             switch (suboption)
                             {
@@ -80,34 +92,48 @@ namespace DictionaryPersonelManagementSystem
                                     decimal newSalary = Convert.ToDecimal(Console.ReadLine());
                                     Console.Write("Telefon numarası : ");
                                     string newPhoneNumber = Console.ReadLine();
-                                    Personnel updatedPersonnel = new Personnel(updateId, newFirstName, newLastName, newDepartment, newSalary, newPhoneNumber);
-                                    manager.UpdatePersonnel(updateId, updatedPersonnel);
+                                    if (newPhoneNumber.All(char.IsDigit) && newPhoneNumber.Length==11)
+                                    {
+                                        Personnel updatedPersonnel = new Personnel(updateId, newFirstName, newLastName, newDepartment, newSalary, newPhoneNumber);
+                                        manager.UpdatePersonnel(updateId, updatedPersonnel);
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Hata: Telefon numarası yalnızca 11 haneli rakamlardan oluşmalıdır!");
+                                    }
+
                                     break;
                                 case 2:
-                                    Console.WriteLine("Hangi bilgiyi güncellemek istersiniz?");
+                                    Console.WriteLine("\nHangi bilgiyi güncellemek istersiniz?");
                                     Console.WriteLine("1 - Ad\n2 - Soyad\n3 - Departman\n4 - Maaş\n5 - Telefon");
+                                    Console.Write("Seçiminiz : ");
                                     int selection = Convert.ToInt32(Console.ReadLine());
                                     switch (selection)
                                     {
                                         case 1:
                                             Console.Write("\nYeni isim bilgisini giriniz : ");
                                             string updateFirstName = Console.ReadLine();
+                                            manager.UpdatePersonnelField(updateId, selection, updateFirstName);
                                             break;
                                         case 2:
                                             Console.Write("\nYeni soyisim bilgisini giriniz : ");
                                             string updateLastName = Console.ReadLine();
+                                            manager.UpdatePersonnelField(updateId, selection, updateLastName);
                                             break;
                                         case 3:
                                             Console.Write("\nYeni departman bilgisini giriniz : ");
                                             string updateDepartment = Console.ReadLine();
+                                            manager.UpdatePersonnelField(updateId, selection, updateDepartment);
                                             break;
                                         case 4:
                                             Console.Write("\nYeni maaş bilgisini giriniz : ");
-                                            decimal updateSalary = Convert.ToDecimal(Console.ReadLine());
+                                            string updateSalary = (Console.ReadLine());
+                                            manager.UpdatePersonnelField(updateId, selection, updateSalary);
                                             break;
                                         case 5:
                                             Console.Write("\nYeni telefon bilgisini giriniz : ");
                                             string updatePhoneNumber = Console.ReadLine();
+                                            manager.UpdatePersonnelField(updateId, selection, updatePhoneNumber);
                                             break;
                                         default:
                                             Console.WriteLine("Lütfen menüye göre tuşlama yapınız!");

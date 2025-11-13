@@ -76,5 +76,56 @@ namespace DictionaryPersonelManagementSystem
             }
         }
 
+        public void UpdatePersonnelField(int id, int fieldOption, string newValue)
+        {
+            if (!staff.ContainsKey(id))
+            {
+                Console.WriteLine("\nBu ID' ye sahip personel bulunamadı.\n");
+            }
+            else
+            {
+                Personnel person = staff[id];
+                switch (fieldOption)
+                {
+                    case 1:
+                        person.UpdateFirstName(newValue);
+                        break;
+                    case 2:
+                        person.UpdateLastName(newValue);
+                        break;
+                    case 3:
+                        person.UpdateDepartment(newValue);
+
+                        break;
+                    case 4:
+                        try
+                        {
+                            decimal newSalary = Convert.ToDecimal(newValue);
+                            person.UpdateSalary(newSalary);
+                        }
+                        catch (FormatException)
+                        {
+
+                            Console.WriteLine("!!! HATA : Maaş değeri sayısal olmalıdır!");
+                        }
+
+                        break;
+                    case 5:
+                        if (newValue.All(char.IsDigit) && newValue.Length==11)
+                        {
+                            person.UpdatePhoneNumber(newValue);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Hata: Telefon numarası yalnızca 11 haneli rakamlardan oluşmalıdır!");
+                        }
+                            break;
+                    default:
+                        Console.WriteLine("Geçersiz bir seçim yaptınız!");
+                        break;
+                }
+            }
+        }
+
     }
 }

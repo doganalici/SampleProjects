@@ -71,6 +71,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **TemperatureSensor** | Sıcaklık sensörü simülasyonu |
 | **Transport** | Ulaşım ile ilgili proje |
 | **TransportationSystem** | Taşıma sistemi |
+| **VehicleTrackingSystem** | Araç ekleme, listeleme, silme ve arama işlemlerini yöneten basit bir konsol tabanlı araç takip sistemi |
 | **WalletProject** | Cüzdan işlemleri |
 | **Zoo** | Hayvanat bahçesi uygulaması |
 > 💡 Tüm projeler `.sln` çözüm dosyası ile açılabilir ve bağımsız çalıştırılabilir.

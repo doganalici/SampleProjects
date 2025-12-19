@@ -1,7 +1,7 @@
 # 📘 SampleProjects
 
 > 🚀 C# öğrenme yolculuğumda geliştirdiğim mini projeler koleksiyonu.  
-> Bu repo, **OOP (Nesne Yönelimli Programlama)** ve **Koleksiyon (Dictionary, List, Queue, Stack)** temelli uygulamaları kapsar.  
+> Bu repo, **OOP (Nesne Yönelimli Programlama)** , **Koleksiyon (Dictionary, List, Queue, Stack)** ve **LINQ** temelli uygulamaları kapsar.  
 > Farklı senaryolar üzerinde pratik yapmak ve portföyümü geliştirmek için oluşturuldu.  
 
 
@@ -62,6 +62,7 @@ Amaç, hem **C# pratiklerini derinleştirmek** hem de **mini portföy** oluştur
 | **LibraryManagementSystem** | Detaylı kütüphane yönetim sistemi |
 | **MovieTrackingSystem** | Film listeleme & takip sistemi |
 | **NotificationSystem** | Bildirim gönderim sistemi |
+| **OrderAnalyticsLINQ** | LINQ temel sorgular |
 | **PaymentSystem** | Basit ödeme sistemi |
 | **ProductTrackingSystem** | Ürün takip sistemi |
 | **RestaurantOrderingSystem** | Restoran sipariş sistemi |
